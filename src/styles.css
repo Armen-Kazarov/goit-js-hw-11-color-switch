@@ -7,3 +7,27 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background: rgb(2,0,36);
+  background: linear-gradient(39deg, rgba(2,0,36,1) 0%, rgba(9,22,121,0.7203256302521008) 29%, rgba(0,212,255,1) 100%);
+}
+
+.btn:first-child {
+  margin-right: 5px;
+}
+
+.btn:hover {
+  background: linear-gradient(238deg, rgba(2,0,36,1) 0%, rgba(9,22,121,0.7203256302521008) 29%, rgba(0,212,255,1) 100%);
+}
